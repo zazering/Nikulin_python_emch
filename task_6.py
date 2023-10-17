@@ -7,3 +7,4 @@ if x1 < x2:
     print(f"{x1:.3f} {x2:.3f}")
 else:
     print(f"{x2:.3f} {x1:.3f}")
+#print(min(x1, x2), max(x1, x2))
