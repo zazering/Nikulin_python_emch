@@ -1,7 +1,5 @@
-# task 3
-n = int(input())
-
-hours_passed = n // 60 % 24
-minutes_passed = n % 60
-
-print(f"{hours_passed} {minutes_passed}")
+n = int(input("Enter year number: "))
+if n % 4 == 0 and (n % 100 != 0 or n % 400 == 0):
+    print("YES")
+else:
+    print("NO")
