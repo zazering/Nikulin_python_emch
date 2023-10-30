@@ -1,6 +1,5 @@
-# task 5
-a, b, c = map(float, input().split())
-p = (a + b + c) / 2
-area = (p * (p - a) * (p - b) * (p - c)) ** 0.5
-
-print(f"{area:.3f}")
+x1, y1, x2, y2 = map(int, input("enter coordinates: ").split())
+if x1 == x2 or y1 == y2:
+    print("YES")
+else:
+    print("NO")
